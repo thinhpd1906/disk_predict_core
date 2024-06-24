@@ -1,0 +1,8 @@
+*.h5
+*.ipynb
+/home/thinhpd/.local/lib/python3.10/site-packages
+/dist
+/disk_scan_smart
+/build
+.*
+!/.gitignore
