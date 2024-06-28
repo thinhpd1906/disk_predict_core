@@ -4,7 +4,7 @@ import json
 
 class Authentication:
     def authenticate(self, username, password):
-        url = "http://localhost:8080/api/v1/auth/authenticate"
+        url = "https://diskhealthpredictserverjava-production.up.railway.app/api/v1/auth/authenticate"
         headers = {"Content-Type": "application/json"}
         payload = {
             "email": username,
