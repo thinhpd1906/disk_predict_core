@@ -4,7 +4,7 @@ import json
 
 class Smart:
     def create_smart(self, token, data):
-        url = "https://diskhealthpredictserverjava-production.up.railway.app/api/v1/smart"
+        url = "http://localhost:8080/api/v1/smart"
         headers = {
             "Content-Type": "application/json",
             "Authorization": f"Bearer {token}"
